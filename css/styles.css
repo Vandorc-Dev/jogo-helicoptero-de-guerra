@@ -10,7 +10,7 @@ h1 {
 }
 
 body {
-	background-image:url(../imgs/fundo.jpg);
+	background-image:url(../imgs/fundo2.jpg);
 }
 
 #container{
@@ -69,15 +69,34 @@ background-image:url(../imgs/apache.png);
 }
 
 #inicio {
-	width:350px;
-	height:200px;
+	width:380px;
+	height:240px;
 	background-color:#FFF;
  	margin-left:auto;
-        margin-right:auto;
+	margin-right:auto;
  	margin-top:100px;
 	text-align:center;
 	padding:10px;
+	font-weight: 600;
+}
 
+
+p{
+	font-size: 18px;
+}
+
+.btn{
+	width: 150px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	background-color: rgb(61, 61, 192);
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.btn:hover{
+	background-color: rgb(240, 100, 100);
 }
 
 /*____________*/
